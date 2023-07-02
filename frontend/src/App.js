@@ -1,12 +1,14 @@
 import './App.css';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
+import LandingPage from './screens/LandingPage/LandingPage';
 
 const App = () => {
   return (
     <div>
       <Header />
-      <main style={{ minHeight: "93vh" }}></main>
+      <main />
+      <LandingPage />
       <Footer />
     </div>
   );
